@@ -6,8 +6,9 @@ app.get('/teste', (req, res) => {
     return res.json({hello: 'Word Teste Feature/Courses-page'})
 });
 
-fshfsuihdfush
-SVGDefsElementsdfdsbfshb
-ffsd
+app.get('/nova_rota', (req, res) => {
+    return res.json({ hello: 'Realizando Novo Teste'})
+});
 
 app.listen(3333);
+
