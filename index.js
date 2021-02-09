@@ -10,5 +10,9 @@ app.get('/nova_rota', (req, res) => {
     return res.json({ hello: 'Realizando Novo Teste'})
 });
 
+app.get('/nova_rota3', (req, res) => {
+    return res.json({ hello: 'Realizando Novo Teste'})
+});
+
 app.listen(3333);
 
